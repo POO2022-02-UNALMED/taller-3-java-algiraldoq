@@ -59,12 +59,12 @@ public class TV {
 		this.control = control;
 	}
 	
-	public void setNumTV(int numTV) {
-		TV.numTV = numTV;
+	public void setNumTV(int num) {
+		numTV = num;
 	}
 	
 	public Integer getNumTV() {
-		return TV.numTV;
+		return numTV;
 	}
 
 	public void turnOn() {
